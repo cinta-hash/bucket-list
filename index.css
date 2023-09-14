@@ -24,7 +24,7 @@
     min-height: 100vh;
   }
   header{
-    font-size: large;
+    font-size: 30px;
     margin: 20px;
     padding: 10px;
   }
@@ -35,3 +35,19 @@
     text-align: center;
   }
  
+  form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+  }
+  form button{
+    color: #12c2e9;
+    background-color: white;
+    transition: all ease 0.3s;
+    cursor: pointer;
+  }
+  form button:hover{
+    background-color: #12c2e9;
+    color: white;
+  }
